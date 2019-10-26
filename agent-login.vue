@@ -3,13 +3,7 @@
   <div class="u-login-body">
     <div class="u-l-main">
       <div class="u-item">
-        <input class="ipt"
-               type='text'
-               v-model="agentName"
-               maxlength="26"
-               @blur="fixScroll"
-               placeholder="请输入姓名">
-      </div>
+ 
       <div class="u-item">
         <input class="ipt"
                type='text'
