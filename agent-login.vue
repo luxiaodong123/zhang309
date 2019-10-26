@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="-body">
+  <div class="body">
     <div class="u-l-main">
       <div class="u-item">
  
