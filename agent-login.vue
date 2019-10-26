@@ -6,20 +6,7 @@
  
       <div class="u-item">
         <input class="ipt"
-               type='text'
-               v-model="agentPhone"
-               maxlength="11"
-               @blur="fixScroll"
-               placeholder="请输入手机号">
-      </div>
-      <div class="u-item">
-        <input class="ipt"
-               type='text'
-               v-model="verifyCode"
-               maxlength="6"
-               @blur="fixScroll"
-               placeholder="请输入验证码">
-        <button class="btn"
+            
                 :disabled="verifiState"
                 :class="[verifiState ? 'grey' : '']"
                 @click="sendVerifi">{{sendMsgText}}</button>
