@@ -1,24 +1,11 @@
 <!--  -->
 <template>
-  <div class="-body">
+  <div class="body">
     <div class="u-l-main">
       <div class="u-item">
  
       <div class="u-item">
-        <input class="ipt"
-            
-                :disabled="verifiState"
-                :class="[verifiState ? 'grey' : '']"
-                @click="sendVerifi">{{sendMsgText}}</button>
-      </div>
-      <p class="u-btn"
-         @click="sureClick">登录</p>
-    </div>
-  </div>
-</template>
-
-<script>
-import qs from 'qs'
+     
 import controlStorage from '@js/storage'
 // import { mapGetters } from 'vuex'
 export default {
