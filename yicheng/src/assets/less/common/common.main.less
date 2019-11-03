@@ -1,0 +1,104 @@
+// 公共参数  常量
+@import "./variables.less";
+// 公共的mixin函数
+@import "./mixins.less";
+@import "./vux.less";
+@font-face {  
+  font-family: 'DINPro-Bold';  //重命名字体名
+  src: url('../../font/DINPro-Bold.otf');  //引入字体
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+html {
+  font-family: @font-family  !important;
+  box-sizing: border-box;
+  color: #333;
+  line-height: 1.2;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  text-size-adjust: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent
+}
+
+body,
+button,
+dd,
+dl,
+ol,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+a {
+  outline: 0;
+  color: #333;
+  text-decoration: none
+}
+
+i {
+  font-style: normal;
+}
+
+a,
+img {
+  -webkit-touch-callout: none
+}
+
+button,
+input,
+select,
+textarea {
+  outline: 0;
+  border: none;
+  font-size: inherit;
+  font-family: inherit
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: 400
+}
+
+img {
+  max-width: 100%
+}
+
+textarea {
+  resize: none
+}
+
+select {
+  background-color: transparent;
+  appearance: none
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  appearance: button
+}

@@ -1,0 +1,43 @@
+//
+// mixins 方法
+//---------------------------------------
+.fx() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//rem vw
+.height(@height) {
+  height: @height/@b-width;
+  height: @height/@vw-width;
+}
+
+.width(@width) {
+  width: @width/@b-width;
+  width: @width/@vw-width;
+}
+
+// clearfix via http://h5bp.com/q
+.clearfix() {
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+  }
+}
+
+.inline-block() {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
