@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="u-env-test"
+    <div class="u-env-test1111"
          v-if="isEnvProd">测试</div>
     <router-view/>
   </div>
