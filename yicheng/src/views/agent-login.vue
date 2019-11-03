@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="u-login-body">
+  <div class="u-login-body11111">
     <div class="u-l-main">
       <div class="u-item">
         <input class="ipt"
